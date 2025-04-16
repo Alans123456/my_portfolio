@@ -3,8 +3,10 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div>
-        <h2 className="text text-amber-500">This is my portfolio</h2>
+      <div className=" h-screen w-full bg-gradient-to-r from-red-700 to-purple-900 flex items-center justify-center">
+        <h2 className="text-center text-5xl text-white">
+          Portfolio Under Construction
+        </h2>
       </div>
     </>
   );
