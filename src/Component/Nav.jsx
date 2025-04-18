@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Nav(props) {
+export default function nav(props) {
   return (
     <nav className="w-full px-8 py-4  text-white shadow-md flex justify-between items-center">
       <h1 className="text-xl font-bold">Logo</h1>
