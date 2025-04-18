@@ -1,6 +1,6 @@
 import "./App.css";
 import Front from "./Component/Front";
-import Nav from "./Component/nav";
+import Nav from "./Component/Nav";
 import Lottie from "lottie-react";
 import animationData from "./Animation/FaceBook.json";
 import instagramAnim from "./Animation/Instagram.json";
