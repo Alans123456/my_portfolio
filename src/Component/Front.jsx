@@ -34,7 +34,7 @@ export default function Front() {
           <img
             src="src/assets/my.png"
             alt=""
-            className="w-[500px]   mr-[100px] mt-10"
+            className="w-[500px]   mr-[100px] mt-10 brightness-160"
           />
         </div>
       </div>
