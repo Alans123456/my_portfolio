@@ -13,7 +13,7 @@ function App() {
         <Nav navItems={["Home", "About", "Skills", "Contact"]} />
         <Front />
         <Lottie
-          className="h-10 w-10 ml-30 "
+          className="h-10 w-10 ml-30 mt-[-30px]"
           animationData={animationData}
           loop={true}
         />
