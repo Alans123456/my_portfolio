@@ -8,7 +8,7 @@ const generateStars = (count) => {
     stars.push({
       id: i,
       top: Math.random() * 100 + "vh",
-      left: Math.random() * 50 + "vw", // only on left (black) part
+      left: Math.random() * 100 + "vw",
       size,
       delay: Math.random() * 5,
     });
@@ -20,7 +20,7 @@ const Stars = () => {
   const stars = generateStars(40);
 
   return (
-    <div className="absolute inset-y-0 left-0 w-1/2 z-0 overflow-hidden">
+    <div className="absolute top-0 left-0 w-full h-full md:w-1/2 z-0 overflow-hidden">
       {stars.map((star) => (
         <motion.svg
           key={star.id}
