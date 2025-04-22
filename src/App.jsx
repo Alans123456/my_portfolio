@@ -1,18 +1,24 @@
 import "./App.css";
-import Front from "./Component/Front";
-import Nav from "./Component/Nav";
-import Stars from "./Component/stars"; // Import the star component
+import Home from "./Page/Home";
+import About from "./Page/About";
+import Contact from "./Page/Contact";
+import Skills from "./Page/Skills";
+import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+
+// Import the star component
 
 function App() {
   return (
     <>
-      <div>
-        <div className="relative w-full min-h-screen bg-gradient-to-r from-black to-purple-900 overflow-hidden">
-          <Stars />
-          <Nav navItems={["Home", "About", "Skills", "Contact"]} />
-          <Front />
-        </div>
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Skills" element={<Skills />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
