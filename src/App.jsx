@@ -9,7 +9,7 @@ import WhatsApp from "./Animation/WhatsApp.json";
 function App() {
   return (
     <>
-      <div className="w-screen h-screen bg-gradient-to-r from-black to-purple-900 ">
+      <div className="w-full m-h-screen flex-col bg-gradient-to-r from-black to-purple-900 ">
         <Nav navItems={["Home", "About", "Skills", "Contact"]} />
         <Front />
         <Lottie
